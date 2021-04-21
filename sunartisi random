@@ -5,8 +5,6 @@ using namespace std;
 
 void random_list_size() {
   int x;
-	cout << "Type a number: "; 
-	cin >> x; 
 	int i = 0;
 	while (i++ < x) {
 		int r = (rand() % 100) + 100;
@@ -16,8 +14,6 @@ void random_list_size() {
 
 void random_element() {
   int x;
-	cout << "Type a number: "; 
-	cin >> x; 
 	int i = 0;
 	while (i++ < x) {
 		int r = (rand() % 50) + 1;
