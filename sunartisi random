@@ -24,7 +24,10 @@ void random_element() {
 
 
 int main(){
-	
+
+	int k;
+	cout << "Type the number of lists(k): "; 
+	cin >> k; 
 
 	return 0;
 }
