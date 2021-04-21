@@ -2,15 +2,33 @@
 #include <cstdlib>
 using namespace std;
 
-int main()
-{	
-	int x;
+
+void random_list_size() {
+  int x;
+	cout << "Type a number: "; 
+	cin >> x; 
+	int i = 0;
+	while (i++ < x) {
+		int r = (rand() % 100) + 100;
+	}
+	return 0;
+}
+
+void random_element() {
+  int x;
 	cout << "Type a number: "; 
 	cin >> x; 
 	int i = 0;
 	while (i++ < x) {
 		int r = (rand() % 50) + 1;
-		cout << r << endl;
 	}
+	return 0;
+}
+
+
+
+int main(){
+	
+
 	return 0;
 }
