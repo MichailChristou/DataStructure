@@ -3,31 +3,37 @@
 using namespace std;
 
 
-void random_list_size() {
-  int x;
+int random_list_size() {
 	int i = 0;
-	while (i++ < x) {
-		int r = (rand() % 100) + 100;
-	}
-	return 0;
+	int r;
+	r = (rand() % 100) + 100;
+	return r;
 }
 
-void random_element() {
-  int x;
+int random_element() {
 	int i = 0;
-	while (i++ < x) {
-		int r = (rand() % 50) + 1;
-	}
-	return 0;
+	int r;
+	r = (rand() % 50) + 1;
+	return r;
 }
 
 
 
-int main(){
+int main() {
 
 	int k;
-	cout << "Type the number of lists(k): "; 
-	cin >> k; 
+	cout << "Type the number of lists(k): ";
+	cin >> k;
+
+	for (int i = 0; i < k; i++) {
+		int list_size = random_list_size();
+
+		for (int j = 0; j < list_size; j++) {
+
+
+		}
+
+	}
 
 	return 0;
 }
